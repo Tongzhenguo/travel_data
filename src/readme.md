@@ -1,3 +1,7 @@
+crawler 爬虫模块
+
+rec_sys 推荐模块
+
 commentAnalysis.py　是评论信息分析的代码，最后以标签云的形式展现出来
 
 EDA.py　历史景区拥堵分析,最后以表格的形式展现出来
