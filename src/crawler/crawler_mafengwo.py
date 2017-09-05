@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sci = pd.read_csv('../../data/shanghai_science_lonlat.csv')
-f = open(u'../../data/mafengwo/马蜂窝景点概览和点评.csv', 'wb')
+f = open(u'../../data/mafengwo/马蜂窝景点概览.csv', 'wb')
 f.write(unicode('\xEF\xBB\xBF', 'utf-8'))   # 文件头
 writer = csv.writer(f)
 writer.writerow(['name','url','overview', 'commentlist'])
