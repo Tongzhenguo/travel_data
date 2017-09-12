@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`path` (
 ENGINE = InnoDB
 ;
 
-LOAD DATA INFILE "/var/lib/mysql-files/path.csv"
+LOAD DATA INFILE "/var/lib/mysql-files/path_id.csv"
 REPLACE INTO TABLE path
 CHARACTER SET utf8
 FIELDS TERMINATED BY "," ENCLOSED BY ""

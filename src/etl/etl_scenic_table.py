@@ -345,7 +345,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`scenic` (
   `sex_desc_json` VARCHAR(80) NULL,
   `area_desc_json` VARCHAR(1000) NULL,
   `cost_desc_json` VARCHAR(180) NULL,
-  `related_poi_json` VARCHAR(180) NULL
+  `related_poi_json` VARCHAR(180) NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC))
 ENGINE = InnoDB;
